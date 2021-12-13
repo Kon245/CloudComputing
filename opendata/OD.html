@@ -1,0 +1,35 @@
+
+<html>
+  <head><meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>淡江大學 2021雲端運算課程 OpenData</title>
+  </head>
+  <body>
+   <script type="text/JavaScript"> 
+
+function doSomething(json){
+        var tableString= "<table border=1> <tr style='text-align:center;'><td>站號</td><td>站名</td><td>所有車輛</td><td>可借車輛</td><td>可還車位</td><td>緯度</td><td>經度</td></tr>";
+        for (var i=0; i<json.length; i++){
+            tableString += "<tr><td>"+json[i].sno+"</td><td>"+json[i].sna+"</td><td style='color:green;text-align:center;'>"+json[i].tot+"</td><td style='color:blue;text-align:center;'>"+json[i].sbi+"</td><td style='color:red;text-align:center;'>"+json[i].bemp+"</td><td>"+json[i].lat+"</td><td>"+json[i].lng+"</td></tr>";
+        }
+        tableString += "</table>";
+        var stationElement=document.getElementById("station");
+        station.innerHTML=tableString; 
+  }
+
+  fetch('https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json', { 
+    method: 'GET'
+  })
+  .then(function(response) { return response.json(); })
+  .then(function(json) {
+  
+    doSomething(json);
+    
+  });
+    </script>
+   <div id="station"></div>
+  </body>
+  </html>
+
+  
+
+  

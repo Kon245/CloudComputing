@@ -8,7 +8,7 @@
 
 .return {
   position: fixed;
-  padding-left: 3rem;
+  padding: 3rem;
 }
 
 .return i {
@@ -30,7 +30,7 @@
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 200rem;
+  height: 230rem;
   background-color: #c5c5c5;
 }
 
@@ -39,7 +39,7 @@
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 200rem;
+  height: 230rem;
   background-color: #c5c5c5;
 }
 
@@ -209,5 +209,48 @@
   border-radius: 18px;
   -webkit-box-shadow: 0 0 0 3px #fccf95bb;
           box-shadow: 0 0 0 3px #fccf95bb;
+}
+
+.title {
+  padding: 3rem;
+  width: 93%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title h1 {
+  color: #ccb639;
+  font-size: 46px;
+  padding: 1rem;
+}
+
+.title p {
+  color: #c5c5c5;
+  font-size: 20px;
+}
+
+.card {
+  width: 60%;
+  border-top: solid 0.1rem #B88B61;
+  padding: 2.5rem;
+  margin-left: 20%;
+}
+
+.card h1 {
+  color: #c5c5c5;
+  padding-bottom: 1rem;
+}
+
+.card p {
+  color: #c5c5c5;
+  font-size: 18px;
 }
 /*# sourceMappingURL=intro.css.map */

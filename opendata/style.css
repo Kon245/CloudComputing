@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    padding: 2%;
+    color: #333;
+}
+.title p{
+    font-size: 30px;
+    padding: 1rem;
+    border-bottom: solid .3rem #878787;
+    display: flex;
+    justify-content: center;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    padding-left: 10%;
+    width: 70%;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: solid .06rem #878787;
+}
+
+.card .back{
+    background-color: #333;
+    width: 80%;
+    margin-bottom: 1.3rem;
+}
+
+.card .back img{
+    background-image: #333;
+    width: 100%;
+    opacity: .7;
+}
+.card .name{
+    font-size: 2.5rem;
+}
+
+.card .time{
+    margin-bottom: 2rem;
+}
+
+.card .info{
+    color: rgb(221, 109, 109);
+    font-weight: 600;
+    opacity: .7;
+    margin-bottom: .2rem;
+}
+
+.card .intro{
+    margin-bottom: 1.3rem;
+}
+.card .sell,.card .sellTitle{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: .2rem;
+}

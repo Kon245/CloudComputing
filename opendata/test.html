@@ -3,33 +3,14 @@
   <head><meta http-equiv="content-type" content="text/html; charset=utf-8">
   <title>OpenData</title>
   </head>
+  <link rel="stylesheet" href="style.css">
   <body>
-    <script type="text/JavaScript"> 
-
-      fetch('./data/桃園市表演藝術空間資料.json')
-      .then(function(response) {
-        return response.json();
-      })
-      .then(function(myJson) {
-        console.log(myJson);
-
-        function Out(json) {
-          
-        }
-      });
-
-      function Out(json) {
-        var activity ;
-        for (var i=0; i<json.length; i++){
-          activity +=json[i].troupeName;
-
-        }
-
-        var stationElement=document.getElementById("station");
-        station.innerHTML=tableString; 
-      }
-
-    </script>
+    <div class="title">
+      <p>桃園表演藝術</p>
+    </div>
+    <div class="data">
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
   

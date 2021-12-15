@@ -30,7 +30,7 @@
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 230rem;
+  height: 530rem;
   background-color: #c5c5c5;
 }
 
@@ -39,7 +39,7 @@
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 230rem;
+  height: 530rem;
   background-color: #c5c5c5;
 }
 
@@ -49,12 +49,12 @@
 }
 
 .timeline ul li {
-  margin: 60px 0;
+  margin: 100px 0;
   list-style: none;
   line-height: normal;
   position: relative;
   width: 50%;
-  padding: 20px 100px;
+  padding: 20px 30px 20px 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -110,33 +110,19 @@
           box-shadow: 0 0 0 3px #fccf95bb;
 }
 
-.timeline ul li .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.timeline ul li .container h3 {
+.timeline ul li h3 {
   margin: 0;
   padding: 0;
   font-weight: 600;
   color: #B88B61;
-  font-size: 25px;
+  font-size: 20px;
 }
 
-.timeline ul li .container p {
+.timeline ul li p {
   margin: 10px 0 0;
   padding: 0;
   color: #c5c5c5;
   font-size: 20px;
-}
-
-.timeline ul li .container .image {
-  padding-right: 2rem;
-}
-
-.timeline ul li .container .image img {
-  width: 100%;
 }
 
 .timeline ul li .time h4 {
@@ -180,35 +166,26 @@
   color: #e6ccab;
 }
 
-.timeline ul li .subtime p {
-  padding-left: 1rem;
-  font-size: 17px;
-}
-
-.timeline ul li:nth-child(odd) .time {
+.timeline ul li:nth-child(odd) .subtime {
   position: absolute;
   top: 12px;
   right: -165px;
   margin: 0;
   padding: 8px 16px;
-  background: #B88B61;
+  background: #181818;
   color: #fff;
   border-radius: 18px;
-  -webkit-box-shadow: 0 0 0 3px #fccf95bb;
-          box-shadow: 0 0 0 3px #fccf95bb;
 }
 
-.timeline ul li:nth-child(even) .time {
+.timeline ul li:nth-child(even) .subtime {
   position: absolute;
   top: 12px;
   left: -165px;
   margin: 0;
   padding: 8px 16px;
-  background: #B88B61;
+  background: #181818;
   color: #fff;
   border-radius: 18px;
-  -webkit-box-shadow: 0 0 0 3px #fccf95bb;
-          box-shadow: 0 0 0 3px #fccf95bb;
 }
 
 .title {

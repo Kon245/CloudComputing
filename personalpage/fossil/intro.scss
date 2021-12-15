@@ -29,7 +29,7 @@
         position: absolute;
         left: 50%;
         width: 2px;
-        height: 230rem;
+        height: 530rem;
         background-color: #c5c5c5;
     }
     &::after {
@@ -37,19 +37,19 @@
         position: absolute;
         left: 50%;
         width: 2px;
-        height: 230rem;
+        height: 530rem;
         background-color: #c5c5c5;
     }
     ul {
         margin: 0;
         padding: 0;
         li {
-            margin: 60px 0;
+            margin: 100px 0;
             list-style: none;
             line-height: normal;
             position: relative;
             width: 50%;
-            padding: 20px 100px;
+            padding: 20px 30px 20px 30px;
             box-sizing: border-box;
 
             &:nth-child(odd) {
@@ -98,31 +98,19 @@
                 box-shadow: 0 0 0 3px #fccf95bb;
 
             }
-            .container{
-                display: flex;
-
-                h3 {
-                    margin: 0;
-                    padding: 0;
-                    font-weight: 600;
-                    color: #B88B61;
-                    font-size: 25px;
-                }
-                p {
-                    margin: 10px 0 0;
-                    padding: 0;
-                    color: #c5c5c5;
-                    font-size: 20px;
-                }
-                .image{
-                    padding-right: 2rem;
-
-                    img{
-                        width: 100%;
-                    }
-                }
+            h3 {
+                margin: 0;
+                padding: 0;
+                font-weight: 600;
+                color: #B88B61;
+                font-size: 20px;
             }
-            
+            p {
+                margin: 10px 0 0;
+                padding: 0;
+                color: #c5c5c5;
+                font-size: 20px;
+            }   
             .time {
                 h4 {
                     margin: 0;
@@ -166,35 +154,30 @@
                     font-size: 18px;
                     color: #e6ccab;
                 }
-                p{
-                    padding-left: 1rem;
-                    font-size: 17px;
-                }
             }
             &:nth-child(odd) {
-                .time {
+                .subtime {
                     position: absolute;
                     top: 12px;
                     right: -165px;
                     margin: 0;
                     padding: 8px 16px;
-                    background: #B88B61;
+                    background: #181818;
                     color: #fff;
                     border-radius: 18px;
-                    box-shadow: 0 0 0 3px #fccf95bb;
                 }
             }
             &:nth-child(even) {
-                .time {
+                .subtime {
                     position: absolute;
                     top: 12px;
                     left: -165px;
                     margin: 0;
                     padding: 8px 16px;
-                    background: #B88B61;
+                    background: #181818;
                     color: #fff;
                     border-radius: 18px;
-                    box-shadow: 0 0 0 3px #fccf95bb;
+                    
                 }
             }
         }

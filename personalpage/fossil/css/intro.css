@@ -230,4 +230,55 @@
   color: #c5c5c5;
   font-size: 18px;
 }
+
+.block {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 10%;
+  margin: 5rem;
+  border-top: solid .1rem white;
+}
+
+.block img {
+  width: 40%;
+  padding-top: 5rem;
+  padding-right: 4rem;
+}
+
+.block .text {
+  width: 60%;
+  color: #c5c5c5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block .text h1 {
+  color: #B88B61;
+  padding-top: 4rem;
+}
+
+.block .text h2 {
+  color: #cc745e;
+  font-size: 18px;
+  padding-bottom: .3rem;
+  padding-left: .5rem;
+}
+
+.block .text p {
+  padding-left: 1.5rem;
+}
+
+.block .text h3 {
+  font-size: 14px;
+  color: aliceblue;
+  padding-top: 1.5rem;
+}
 /*# sourceMappingURL=intro.css.map */
